@@ -1,1 +1,1 @@
-# wagtail-project
+## Institute Django application.

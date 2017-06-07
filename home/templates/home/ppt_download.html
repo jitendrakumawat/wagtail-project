@@ -1,0 +1,7 @@
+{% load wagtailcore_tags %}
+
+  {% if ppt_download %}
+    <div class="well well-sm">
+      {{ ppt_download|richtext }}
+    </div>
+  {% endif %}

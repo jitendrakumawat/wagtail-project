@@ -1,0 +1,10 @@
+{% if blogs %}
+  <div class="panel panel-default">
+    <div class="panel-heading"><h2 class="panel-title">Recent Whitepapers</h2></div>
+    <div class="list-group">
+      {% for blog in blogs %}
+        {% include "home/includes/blog_list_item.html" %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

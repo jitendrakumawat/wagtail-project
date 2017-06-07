@@ -1,0 +1,7 @@
+{% load wagtailimages_tags wagtailcore_tags %}
+
+{# {% image self.back_image width-2000 as back_photo %} #}
+
+<div class="col-md-8 col-md-offset-2 introwell">
+ {% include "home/includes/page_blocks.html" with blocks=self.one_column only %}
+</div>

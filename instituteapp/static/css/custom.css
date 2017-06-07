@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+}
+
+html, body {
+  padding-top: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  background-image: url("https://s3-us-west-2.amazonaws.com/nescode/public/inspiration-geometry.png");*/
+  height: 100%;
+}
+
+/*.container{
+  background-color: #FFF;
+}
+*/
+/* content wrapper */
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px;
+}
+
+/* body are */
+/*#bodyarea{
+  background-color: #000;
+}*/
+
+/* Navbar */
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-weight: 700;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.navbar-default .navbar-nav>.active>a{
+  background-color: transparent;
+  border-bottom: solid 2px #393185;
+}
+
+.navbar-brand {
+    padding: 1px 15px;
+}
+
+/* Intro */
+
+.introwell{
+  background-color: transparent;
+  border: none;
+}
+
+/* Breadcrumb */
+
+.breadcrumb {
+    padding: 0px 0px;
+    margin-top: 21px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: transparent;
+    color: #FFF;
+}
+
+
+.breadcrumb>.active {
+    color: #FFF;
+}
+
+.custom{
+  color: #FFF;
+}
+
+/* Carousel */
+
+.carousel-control.right {
+    right: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.carousel-control.left {
+    left: 0;
+    left: auto;
+    background-image: none;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+
+.carousel-caption {
+    color: #000;
+    text-transform: uppercase;
+}
+
+/* Fonts */
+
+h2{
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+p{
+  font-size: 17px;
+  color: #262626;
+}
+
+a {
+    color: #E31E24;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+ul{
+  font-size: 17px;
+}
+
+/* Two column block */
+
+.paddingtopbottom{
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+/* Three block */
+
+.threeblock-content{
+  text-align: center;
+}
+
+.img-responsive{
+  display: inline-block;
+}
+
+/* Default panel */
+
+.panel-default {
+    border-color: #ddd;
+    background-color: #fff;
+}
+
+/* Button */
+
+.btn-default {
+    color: #333;
+    background-color: transparent;
+    border-color: #39318F;
+    border-radius: 2px;
+}
+
+.panel-default>.panel-heading {
+    color: #FFF;
+    background-color: #393185;
+    border-color: #ddd;
+}
+
+/* header */
+
+.wellcustom{
+  background-color: #393185;
+  color: #FFF;
+}
+
+
+/* Custom person page */
+
+.personcustom{
+  margin-top: 91px;
+}
+/*  Custom footer */
+
+.footercustom{
+    padding-top: 50px;
+}
+
+.footer {
+  background-color: #393185;
+  background-image: url("https://s3-us-west-2.amazonaws.com/nescode/public/inspiration-geometry.png");
+  color: #FFF;
+  padding-top: 10px;
+}
+
+.push{
+  height: 142px;
+}
+
+.copyright{
+  font-size: 14px;
+  color: #FFF;
+  font-weight: 300;
+}
+
+
+/* Social media */
+
+/* footer social icons */
+.list-inline {
+    padding-left: 0;
+    margin-left: 0px;
+  }
+
+/* Adverts */
+
+.list-inline{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
